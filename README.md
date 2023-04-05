@@ -1,5 +1,7 @@
 # Problema-de-Productores-y-Consumidores
 
+Mi dirección de GitHub para este repositorio es la siguiente: [GitHub](https://github.com/andmansim/Problema-de-Productores-y-Consumidores.git)
+
 https://github.com/andmansim/Problema-de-Productores-y-Consumidores.git
 
 Concepto de Productor y Consumidor
@@ -53,3 +55,4 @@ if __name__ == '__main__':
 
 
 ```
+![Captura](capProductorConsumidor.png)
