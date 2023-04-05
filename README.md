@@ -4,7 +4,7 @@ Mi dirección de GitHub para este repositorio es la siguiente: [GitHub](https://
 
 https://github.com/andmansim/Problema-de-Productores-y-Consumidores.git
 
-Concepto de Productor y Consumidor \n
+Concepto de Productor y Consumidor: 
 El productor aporta los recursos y el consumidor usa esos recursos, pero esto lo deben de hacer en equilibrio. El problema es cuando uno de los dos tarda más en crear o consumir dichos recursos, dado que ocasiona un desequilibrio.
 La solución a este problema es usar gestión de recursos o exlusión mutua en equilibrio, que lo haremos mediante hilos. Usaremos una cola para conectar al productor con el consumidor. Además, de establecer un tiempo de espera, para que no haya una latencia muy grande.
 
