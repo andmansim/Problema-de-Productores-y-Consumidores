@@ -2,6 +2,13 @@
 
 https://github.com/andmansim/Problema-de-Productores-y-Consumidores.git
 
+Concepto de Productor y Consumidor
+El productor aporta los recursos y el consumidor usa esos recursos, pero esto lo deben de hacer en equilibrio. El problema es cuando uno de los dos tarda más en crear o consumir dichos recursos, dado que ocasiona un desequilibrio.
+La solución a este problema es usar gestión de recursos o exlusión mutua en equilibrio, que lo haremos mediante hilos. Usaremos una cola para conectar al productor con el consumidor. Además, de establecer un tiempo de espera, para que no haya una latencia muy grande.
+
+Crearemos dos hilos, uno el consumidor y otro el productor, para que se hagan de forma paralela y reducir el tiempo de espera. Esto es posible porque están separados, es decir, son independientes
+
+Todo este ejercicio está hecho asumiendo que solo hay un productor y un consumidor.
 ```
 from queue import Queue
 from threading import Thread
