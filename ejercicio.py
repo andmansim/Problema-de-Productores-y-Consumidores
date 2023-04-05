@@ -11,3 +11,14 @@ def productor(nombre):
         q.put(contar)
         print(f'{nombre} está produciendo el recurso {contar}')
         contar +=1
+
+def consumidor(nombre):    
+    contar = 1
+    while True:
+        a = q.get()
+        print(f'El consumidor {nombre} está consumiendo el recurso {contar}')
+        contar += 1
+        q.task_done()
+        time.sleep(1)
+        
+
