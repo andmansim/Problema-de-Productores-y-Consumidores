@@ -34,7 +34,7 @@ if __name__ == '__main__':
     '''
     Creamos los hilos de ambas funciones para que se ejecuten en paralelo
     '''
-    t = Thread(target = productor, args = ('Productor', ))
-    t1 = Thread(target = consumidor, args= ('Consumidor', ))
+    t = Thread(target = productor, args = ('Manolito', ))
+    t1 = Thread(target = consumidor, args= ('Eduarda', ))
     t.start()
     t1.start()    
