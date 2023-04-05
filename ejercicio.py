@@ -21,4 +21,8 @@ def consumidor(nombre):
         q.task_done()
         time.sleep(1)
         
-
+if __name__ == '__main__':
+    t = Thread(target = productor, args = 'Patata')
+    t1 = Thread(target = consumidor, args= 'Xiao')
+    t.start()
+    t1.start()    
